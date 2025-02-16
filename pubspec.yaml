@@ -86,7 +86,14 @@ flutter:
     - family: Satisfy
       fonts:
         - asset: fonts/Satisfy-Regular.ttf
-
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Italic-VariableFont_wght.ttf
+        - asset: fonts/Montserrat-VariableFont_wght.ttf
+    - family: Merienda
+      fonts:
+        - asset: fonts/Merienda-VariableFont_wght.ttf
+    
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
