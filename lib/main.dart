@@ -149,9 +149,8 @@ class MyApp extends StatelessWidget {
                     child: Text(
                       'Forgot Password?',
                       style: TextStyle(
-                        decoration: TextDecoration.underline,
-                        color: Colors.white,
-                        fontFamily: 'Montserrat',
+                        color: Colors.yellowAccent,
+                        fontFamily: 'Satisfy',
                         fontWeight: FontWeight.bold,
                       ),
                     ),
