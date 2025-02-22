@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Wander with',
+                            'Globe',
                             style: TextStyle(
                               fontFamily: 'Merienda',
                               fontSize: 25,
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            'ghauri',
+                            'trekker',
                             style: TextStyle(
                               fontFamily: 'Satisfy',
                               color: Colors.yellowAccent,
@@ -186,7 +186,7 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Text(
-                        'Don’t have an account? ',
+                        'Dont have an account? ',
                         style: TextStyle(
                           fontFamily: 'Satisfy',
                           color: Colors.white70,
