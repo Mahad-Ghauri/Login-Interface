@@ -98,6 +98,7 @@ class MyApp extends StatelessWidget {
                   TextFormField(
                     decoration: InputDecoration(
                       hintText: 'Email',
+                      labelText: 'Email',
                       fillColor: Colors.white.withOpacity(0.2),
                       filled: true,
                       prefixIcon: const Icon(
@@ -123,6 +124,7 @@ class MyApp extends StatelessWidget {
                     obscureText: true,
                     decoration: InputDecoration(
                       hintText: 'Password',
+                      labelText: 'Password',
                       fillColor: Colors.white.withOpacity(0.2),
                       filled: true,
                       prefixIcon: const Icon(
