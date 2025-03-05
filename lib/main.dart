@@ -92,13 +92,14 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
 
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 40),
 
                   // Email Field
                   TextFormField(
                     decoration: InputDecoration(
                       hintText: 'Email',
                       labelText: 'Email',
+                      hintStyle: TextStyle(fontSize: 13),
                       fillColor: Colors.white.withOpacity(0.2),
                       filled: true,
                       prefixIcon: const Icon(
@@ -117,7 +118,7 @@ class MyApp extends StatelessWidget {
                     style: const TextStyle(color: Colors.white),
                   ),
 
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 30),
 
                   // Password Field
                   TextFormField(
