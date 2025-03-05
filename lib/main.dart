@@ -96,9 +96,11 @@ class MyApp extends StatelessWidget {
 
                   // Email Field
                   TextFormField(
+                    keyboardType: TextInputType.emailAddress,
+                    keyboardAppearance: Brightness.dark,
+                    style: TextStyle(fontSize: 18, color: Colors.white70),
                     decoration: InputDecoration(
                       hintText: 'Email',
-                      labelText: 'Email',
                       hintStyle: TextStyle(fontSize: 13),
                       fillColor: Colors.white.withOpacity(0.2),
                       filled: true,
@@ -107,7 +109,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.amberAccent,
                       ),
                       enabledBorder: OutlineInputBorder(
-                        borderSide: const BorderSide(color: Colors.white70),
+                        borderSide: const BorderSide(color: Colors.grey),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       focusedBorder: OutlineInputBorder(
@@ -115,17 +117,18 @@ class MyApp extends StatelessWidget {
                         borderRadius: BorderRadius.circular(20),
                       ),
                     ),
-                    style: const TextStyle(color: Colors.white),
                   ),
 
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 25),
 
                   // Password Field
                   TextFormField(
+                    keyboardAppearance: Brightness.dark,
+                    keyboardType: TextInputType.visiblePassword,
                     obscureText: true,
                     decoration: InputDecoration(
                       hintText: 'Password',
-                      labelText: 'Password',
+                      hintStyle: TextStyle(fontSize: 13, color: Colors.grey),
                       fillColor: Colors.white.withOpacity(0.2),
                       filled: true,
                       prefixIcon: const Icon(
@@ -133,7 +136,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.white,
                       ),
                       enabledBorder: OutlineInputBorder(
-                        borderSide: const BorderSide(color: Colors.white70),
+                        borderSide: const BorderSide(color: Colors.grey),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       focusedBorder: OutlineInputBorder(
